@@ -25,9 +25,9 @@ The below image is used for inference of the model:
 ![](data/test.png)
 
 For an untrained (Ground Zero) model, output is:
-1. Recognized: little
-2. Probability: 0.522
-3. Validation character error rate: 17.66 %
+Recognized: little
+Probability: 0.522
+Validation character error rate: 17.66 %
 
 For a trained model with 2 epoches (iterations), output is:
 Recognized: little
