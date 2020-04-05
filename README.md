@@ -26,18 +26,18 @@ The below image is used for inference of the model:
 
 For an untrained (Ground Zero) model, output is:
 
-Recognized: little
-
-Probability: 0.522
-
-Validation character error rate: 17.66 %
+1. Recognized: little
+2. Probability: 0.522
+3. Validation character error rate: 17.66 %
 
 For a trained model with 2 epoches (iterations), output is:
-Recognized: little
-Probability: 0.567
-Validation character error rate: 15.75 %
+1. Recognized: little
+2. Probability: 0.567
+3. Validation character error rate: 15.75 %
 
 For a trained model with 6 epoches (iterations), output is:
-Recognized: little
-Probability: 0.653
-Validation character error rate: 15.20 %
+1. Recognized: little
+2. Probability: 0.653
+3. Validation character error rate: 15.20 %
+
+Since the training process takes a long time to complete, the model has been run for maximum 6 epoches, wherein with each iteration there is an improvement in performance. This model will perform very well when the whole training process is completed.
